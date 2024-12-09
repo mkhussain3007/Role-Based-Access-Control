@@ -1,0 +1,65 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "John Do",
+      "email": "john@example.com",
+      "role": "mkh",
+      "status": "active"
+    },
+    {
+      "id": "3",
+      "name": "mk",
+      "email": "mkhussain3007@gmail.com",
+      "role": "Admin",
+      "status": "active"
+    },
+    {
+      "id": "3c25",
+      "name": "Mohammad Khadim Hussain",
+      "email": "mohammadkhadimhussain4@gmail.com",
+      "role": "Admin",
+      "status": "inactive"
+    }
+  ],
+  "roles": [
+    {
+      "id": "1",
+      "name": "Admin",
+      "permissions": [
+        "Read",
+        "Write",
+        "Delete"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Manager",
+      "permissions": [
+        "Read",
+        "Write"
+      ]
+    },
+    {
+      "id": "b830",
+      "name": "mkh",
+      "permissions": [
+        "Read",
+        "Delete"
+      ]
+    },
+    {
+      "id": "62a3",
+      "name": "admin",
+      "permissions": [
+        "Read",
+        "Write"
+      ]
+    }
+  ],
+  "permissions": [
+    "Read",
+    "Write",
+    "Delete"
+  ]
+}
