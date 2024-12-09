@@ -23,25 +23,25 @@ Redux Toolkit: A set of tools for efficient Redux development.
 React Hooks: Built-in hooks in React for state and side-effect management.
 To install the dependencies, run the following command:
 
-npm install
+**npm install**
 This will install the required dependencies specified in package.json.
 
 Setup
 Clone the repository:
 
 
-git clone <repository-url>
+**git clone <repository-url>**
 Navigate into the project directory:
 
-cd <project-name>
+**cd <project-name>**
 Install the dependencies:
 
 
-npm install
+**npm install**
 Run the development server:
 
 
-npm start
+**npm start**
 This will start the application on http://localhost:3000 (or the port specified in your setup).
 
 Running the Application
@@ -51,7 +51,7 @@ Make sure you have the required dependencies installed using npm install.
 
 Run the development server with:
 
-npm start
+**npm start**
 After running the command, the application will be available at http://localhost:3000 in your browser.
 
 Open your browser and navigate to http://localhost:3000 to view and interact with the User Management Application.
@@ -73,9 +73,9 @@ redux-toolkit - A toolset for efficient Redux development.
 axios - Promise-based HTTP client for API requests.
 Install all dependencies with:
 
-npm install @mui/material react-redux react-router-dom redux redux-toolkit axios
+**npm install @mui/material react-redux react-router-dom redux redux-toolkit axios
 
-
+**
 
 To simulate a backend, json-server is used. It will serve mock data from a JSON file (src/mock/db.json). This allows the frontend to fetch data like it would from a real API.
 
@@ -83,13 +83,15 @@ Steps:
 Install json-server (if not installed yet): In your project folder, run the following command to install json-server:
 
 
-npm install json-server --save-dev
+**npm install json-server --save-dev**
 
 
 Start json-server: Run the following command to start the json-server and watch the db.json file for changes:
 
 
-npx json-server --watch src/mock/db.json --port 5000
+**npx json-server --watch src/mock/db.json --port 5000**
+
+
 This command will start a mock backend on http://localhost:5000. You can use this to simulate GET, POST, PUT, DELETE requests for users and roles.
 
 
@@ -99,5 +101,7 @@ Steps:
 Start React App: Run the following command to start the development server for the React application:
 
 
-npm start
+**npm start**
+
+
 This will start the React app on http://localhost:3000 (default port).
