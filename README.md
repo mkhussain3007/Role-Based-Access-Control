@@ -2,8 +2,12 @@ User Management Application
 Description
 This is a React-based User Management application that allows administrators to manage users' details, such as their name, email, role, and status. Users can be added, updated, or deleted dynamically. The application also supports user role management and status toggling, providing a complete interface for managing a system's users.
 
+
+Login credentials:
 UserName:admin
 Password: password123
+
+
 Features
 View Users: A table to display all users with details like name, email, role, and status.
 Add User: A modal to add new users with their details and roles.
